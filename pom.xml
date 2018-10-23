@@ -19,6 +19,13 @@
     </dependency>
   </dependencies>
   
+  <distributionManagement>
+  <repository>
+    <id>releases</id>
+    <url>http://ec2-34-214-242-151.us-west-2.compute.amazonaws.com:8081/nexus/content/repositories/releases</url>
+  </repository>
+</distributionManagement>
+  
   <build>
     <plugins>
     
